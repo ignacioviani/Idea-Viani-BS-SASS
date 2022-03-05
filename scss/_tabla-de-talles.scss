@@ -1,0 +1,41 @@
+/* Pagina Tablas de Talles */
+
+.tituloPgTablas {
+  text-align: center;
+  padding: 3rem;
+  font-size: 3rem;
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+  background-image: linear-gradient(to top, black, white);
+}
+
+.tituloTablas {
+  text-align: center;
+  padding: 4rem 3rem 2rem 3rem;
+}
+
+.tablasEimagen {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  flex-wrap: wrap;
+
+  table {
+    border: 1px solid navy;
+  }
+
+  .imgTablas {
+    width: 250px;
+    height: 300px;
+    border-radius: 5%;
+  }
+}
+
+.tituloYtabla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Pagina Tablas de Talles */

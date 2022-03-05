@@ -1,0 +1,69 @@
+/* Pagina de Contacto */
+
+body {
+  background-color: rgb(168, 33, 33);
+
+  .grilla {
+    display: grid;
+    padding: 0.5rem;
+    grid-template-rows: 100px 1fr 1fr 100px;
+    grid-template-columns: 60% 40%;
+    grid-gap: 5px;
+    height: 100vh;
+    grid-template-areas:
+      "headerContacto headerContacto"
+      "seccionForm asideContacto"
+      "seccionUbi asideContacto"
+      "footerContacto footerContacto";
+
+    #headerContacto {
+      grid-area: headerContacto;
+    }
+    .border {
+      border: 1px solid black;
+      background-color: rgb(255, 255, 255);
+    }
+    #seccionForm {
+      grid-area: seccionForm;
+    }
+    #seccionUbi {
+      grid-area: seccionUbi;
+    }
+    #asideContacto {
+      grid-area: asideContacto;
+    }
+    #seccionForm {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      padding: 1rem;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 2rem;
+
+        legend {
+          padding: 2rem;
+        }
+      }
+    }
+  }
+}
+
+#footerContacto {
+  grid-area: footerContacto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+
+  .tituloFooterContacto {
+    color: black;
+  }
+}
+
+/* Pagina de Contacto */

@@ -1,0 +1,103 @@
+@import "index";
+@import "contacto";
+@import "tabla-de-talles";
+@import "tienda";
+
+html {
+  font-size: 62, 5%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+///// NAV_BAR /////
+
+.headerGeneral {
+  background-image: linear-gradient(to bottom, grey, white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+
+  img {
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    transition: 1s;
+
+    :hover {
+      transform: scale(1.2, 1.2);
+    }
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+
+    li a {
+      color: rgb(0, 0, 0);
+      padding: 2rem;
+      text-decoration: none;
+      transition: all 0.5s;
+
+      :hover {
+        color: darkred;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+///// NAV_BAR /////
+
+///// FOOTER /////
+
+.footerGeneral {
+  display: flex;
+  background-image: linear-gradient(to top, black, rgb(39, 30, 30));
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+
+  .tituloFooter {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .redes ul {
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+    list-style: none;
+
+    li a {
+      display: flex;
+      padding: 1rem;
+      text-decoration: none;
+      transition: all 0.5s;
+
+      :hover {
+        color: darkred;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+body .logoInferior {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logoInferior :hover {
+  transition: all 0.5s;
+  transform: scale(1.1, 1.1);
+}
+
+///// FOOTER /////

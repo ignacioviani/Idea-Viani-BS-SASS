@@ -1,0 +1,79 @@
+///// INDEX /////
+
+.bodyGeneral {
+  font-family: "poppins", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+main .portada {
+  background-image: url("../imagenes/imagen1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  border-radius: 5%;
+
+  section .ofertas {
+    background-image: url("../imagenes/imagen2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 5%;
+    margin-top: 2rem;
+    border: 1px solid;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+
+    .tituloOfertas {
+      padding-top: 2rem;
+    }
+    .parrafoOfertas {
+      font-size: 1rem;
+    }
+  }
+}
+
+section div .tituloTienda {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.seccionCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .cards {
+    transition: all 0.5s;
+    width: fit-content;
+    border: 3px solid;
+    color: darkred;
+    margin: 1rem;
+    border-radius: 5%;
+    flex: 1 1 20rem;
+
+    h3 {
+      display: flex;
+      justify-content: center;
+      padding-top: 1rem;
+      font-size: 2rem;
+    }
+    p {
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5%;
+    }
+  }
+}
+
+.seccionCards .cards:hover {
+  transform: scale(0.95, 0.95);
+}
