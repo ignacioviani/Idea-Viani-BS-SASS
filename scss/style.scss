@@ -1,4 +1,5 @@
-@import "index";
+@import "variables";
+@import "inicio";
 @import "contacto";
 @import "tabla-de-talles";
 @import "tienda";
@@ -46,14 +47,12 @@ html {
       transition: all 0.5s;
 
       :hover {
-        color: darkred;
+        color: $colorbase;
         font-weight: bold;
       }
     }
   }
 }
-
-///// NAV_BAR /////
 
 ///// FOOTER /////
 
@@ -66,7 +65,7 @@ html {
 
   .tituloFooter {
     color: white;
-    font-size: 1rem;
+    font-size: $textfont - 25px;
   }
 
   .redes ul {
@@ -82,7 +81,7 @@ html {
       transition: all 0.5s;
 
       :hover {
-        color: darkred;
+        color: $colorbase;
         font-weight: bold;
       }
     }

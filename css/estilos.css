@@ -19,7 +19,7 @@ main .portada section .ofertas {
   border-radius: 5%;
   margin-top: 2rem;
   border: 1px solid;
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: 800;
   text-align: center;
 }
@@ -27,14 +27,14 @@ main .portada section .ofertas .tituloOfertas {
   padding-top: 2rem;
 }
 main .portada section .ofertas .parrafoOfertas {
-  font-size: 1rem;
+  font-size: 10px;
 }
 
 section div .tituloTienda {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 30px;
 }
 
 .seccionCards {
@@ -46,7 +46,7 @@ section div .tituloTienda {
   transition: all 0.5s;
   width: fit-content;
   border: 3px solid;
-  color: darkred;
+  color: #8b0000;
   margin: 1rem;
   border-radius: 5%;
   flex: 1 1 20rem;
@@ -55,7 +55,7 @@ section div .tituloTienda {
   display: flex;
   justify-content: center;
   padding-top: 1rem;
-  font-size: 2rem;
+  font-size: 25px;
 }
 .seccionCards .cards p {
   padding: 0.5rem;
@@ -73,7 +73,7 @@ section div .tituloTienda {
 
 /* Pagina de Contacto */
 body {
-  background-color: #a82121;
+  background-color: #8b0000;
 }
 body .grilla {
   display: grid;
@@ -134,7 +134,7 @@ body .grilla #seccionForm form legend {
 .tituloPgTablas {
   text-align: center;
   padding: 3rem;
-  font-size: 3rem;
+  font-size: 55px;
   background-color: black;
   color: white;
   border-radius: 5%;
@@ -172,7 +172,7 @@ body .grilla #seccionForm form legend {
 .tituloPgTienda {
   text-align: center;
   padding: 3rem;
-  font-size: 3rem;
+  font-size: 55px;
   background-color: black;
   color: white;
   border-radius: 5%;
@@ -218,7 +218,7 @@ html {
   transition: all 0.5s;
 }
 .headerGeneral nav ul li a :hover {
-  color: darkred;
+  color: #8b0000;
   font-weight: bold;
 }
 
@@ -231,7 +231,7 @@ html {
 }
 .footerGeneral .tituloFooter {
   color: white;
-  font-size: 1rem;
+  font-size: 25px;
 }
 .footerGeneral .redes ul {
   display: flex;
@@ -246,7 +246,7 @@ html {
   transition: all 0.5s;
 }
 .footerGeneral .redes ul li a :hover {
-  color: darkred;
+  color: #8b0000;
   font-weight: bold;
 }
 

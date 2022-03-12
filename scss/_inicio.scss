@@ -21,7 +21,7 @@ main .portada {
     border-radius: 5%;
     margin-top: 2rem;
     border: 1px solid;
-    font-size: 4rem;
+    font-size: $textfont - 10px;
     font-weight: 800;
     text-align: center;
 
@@ -29,7 +29,7 @@ main .portada {
       padding-top: 2rem;
     }
     .parrafoOfertas {
-      font-size: 1rem;
+      font-size: $textfont - 40px;
     }
   }
 }
@@ -38,7 +38,7 @@ section div .tituloTienda {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  font-size: 3rem;
+  font-size: $textfont - 20px;
 }
 
 .seccionCards {
@@ -50,7 +50,7 @@ section div .tituloTienda {
     transition: all 0.5s;
     width: fit-content;
     border: 3px solid;
-    color: darkred;
+    color: $colorbase;
     margin: 1rem;
     border-radius: 5%;
     flex: 1 1 20rem;
@@ -59,7 +59,7 @@ section div .tituloTienda {
       display: flex;
       justify-content: center;
       padding-top: 1rem;
-      font-size: 2rem;
+      font-size: $textfont - 25px;
     }
     p {
       padding: 0.5rem;
